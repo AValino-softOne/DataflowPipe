@@ -22,7 +22,7 @@ bqtable = '2005_hurricaine_data'
 bqdataset = 'dataflow'
 input_file = 'hurricanes.csv'
 job_name = 'dataflow-e4'
-runner = 'DirectRunner'  # DataflowRunner | DirectRunner
+runner = 'DataflowRunner'  # DataflowRunner | DirectRunner
 
 # %%
 
